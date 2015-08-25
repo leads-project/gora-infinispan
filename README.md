@@ -8,11 +8,7 @@ This project provides a Gora support for the [Infinispan](http://infinispan.org)
 
 ### Requirements
 
-[gora-0.6](https://github.com/infinispan/infinispan)
-
-[infinispan-8.0.0-SNAPSHOT](https://github.com/infinispan/infinispan)
-
-[infinispan-avro-8.0.0-SNAPSHOT](https://github.com/infinispan/infinispan)
+[infinispan-avro-8.0.0.CR1](https://github.com/infinispan/infinispan)
 
 ### Installation 
 
