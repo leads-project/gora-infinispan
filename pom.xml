@@ -25,7 +25,7 @@
 
     <properties>
         <osgi.import>*</osgi.import>
-        <infinispan.version>8.0.0-SNAPSHOT</infinispan.version>
+        <infinispan.version>8.0.0.CR1</infinispan.version>
     </properties>
 
     <build>
