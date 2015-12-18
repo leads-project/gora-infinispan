@@ -80,7 +80,7 @@ public class InfinispanClient<K, T extends PersistentBase> implements Configurab
       try {
          Support.registerSchema(cacheManager, persistentClass.newInstance().getSchema());
       } catch (InstantiationException | IllegalAccessException e) {
-         e.printStackTrace();
+         throw new RuntimeException(e);
       }
    }
 

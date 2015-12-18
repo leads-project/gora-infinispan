@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.hibernate:hibernate-search-engine:tests:5.5.1.Final">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-search-engine/5.5.1.Final/hibernate-search-engine-5.5.1.Final-tests.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-search-engine/5.5.1.Final/hibernate-search-engine-5.5.1.Final-test-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-search-engine/5.5.1.Final/hibernate-search-engine-5.5.1.Final-test-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

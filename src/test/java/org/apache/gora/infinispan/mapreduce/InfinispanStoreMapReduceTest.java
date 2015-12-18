@@ -55,9 +55,8 @@ public class InfinispanStoreMapReduceTest extends DataStoreMapReduceTestBase {
          store.initialize(String.class, WebPage.class, new Properties());
          return store;
       } catch (Exception e) {
-         e.printStackTrace();
+         throw new RuntimeException(e);
       }
-      return null;
    }
 
 }

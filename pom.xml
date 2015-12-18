@@ -6,7 +6,7 @@
     <parent>
         <groupId>org.apache.gora</groupId>
         <artifactId>gora</artifactId>
-        <version>0.6</version>
+        <version>0.6.1</version>
     </parent>
     <artifactId>gora-infinispan</artifactId>
     <name>Apache Gora :: Infinispan</name>
@@ -17,15 +17,10 @@
         document stores and RDBMSs, and analyzing the data with extensive Apache Hadoop MapReduce
         support. This module provides a Gora support for the Infinispan storage system.
     </description>
-    <inceptionYear>2010</inceptionYear>
-    <organization>
-        <name>The Apache Software Foundation</name>
-        <url>http://www.apache.org/</url>
-    </organization>
+    <inceptionYear>2015</inceptionYear>
 
     <properties>
-        <osgi.import>*</osgi.import>
-        <infinispan.version>8.0.0.Final</infinispan.version>
+        <infinispan.version>7.2.5.Final</infinispan.version>
     </properties>
 
     <build>
@@ -197,25 +192,6 @@
             <groupId>org.infinispan</groupId>
             <artifactId>infinispan-server-hotrod</artifactId>
             <version>${infinispan.version}</version>
-            <scope>test</scope>
-        </dependency>
-        <!-- Lucene Dependencies (correct them for Hibernate Search)-->
-        <dependency>
-            <groupId>org.apache.lucene</groupId>
-            <artifactId>lucene-core</artifactId>
-            <version>5.2.1</version>
-            <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.lucene</groupId>
-            <artifactId>lucene-analyzers-common</artifactId>
-            <version>5.2.1</version>
-            <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.lucene</groupId>
-            <artifactId>lucene-queries</artifactId>
-            <version>5.2.1</version>
             <scope>test</scope>
         </dependency>
     </dependencies>

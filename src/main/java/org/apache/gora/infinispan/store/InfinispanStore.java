@@ -71,8 +71,7 @@ public class InfinispanStore<K, T extends PersistentBase> extends DataStoreBase<
          this.infinispanClient.initialize(keyClass, persistentClass, properties);
 
       } catch (Exception e) {
-         LOG.error(e.getMessage());
-         e.printStackTrace();
+         throw new RuntimeException(e);
       }
    }
 
@@ -146,9 +145,8 @@ public class InfinispanStore<K, T extends PersistentBase> extends DataStoreBase<
          result.next();
          return result.get();
       } catch (Exception e) {
-         e.printStackTrace();
+         throw new RuntimeException(e);
       }
-      return null;
    }
 
    /**
