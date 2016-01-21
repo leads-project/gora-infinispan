@@ -12,7 +12,19 @@ This project provides a Gora support for the [Infinispan](http://infinispan.org)
 
 ### Installation 
 
-This project is based upon Maven. It requires to install the latest snapshot version of Infinispan, available at the following [address](https://github.com/infinispan/infinispan), and the Avro support for Infinispan, available [here](https://github.com/infinispan/infinispan).
+This project is based upon Maven. It makes use of Infinispan 7.2.5.Final and the Avro support for Infinispan which is available [here](https://github.com/infinispan/infinispan). Below, we explain how to execute an installation.
+
+```
+# Building and installing infinispan-avro
+git clone https://github.com/leads-project/infinispan-avro.git
+cd infinispan-avro
+mvn clean install -DskipTests
+
+# Building and installing gora-infinispan
+git clone https://github.com/leads-project/gora-infinispan.git
+cd gora-infinispan
+mvn clean install -DskipTests
+```
 
 ### Usage
 
